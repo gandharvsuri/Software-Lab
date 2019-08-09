@@ -32,7 +32,7 @@ public class lab1{
                             System.out.println("RESULT = "+ res);
                             break;
                 
-                case '3' : System.out.println("CASE 2");
+                case '3' : System.out.println("CASE 3");
                             a = scan.nextFloat();
                             b = scan.nextFloat();
                             res = a-b;
