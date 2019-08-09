@@ -12,7 +12,8 @@ public class lab1{
         do{
             System.out.print("1 Add two numbers\n");
             System.out.print("2 Multiply two numbers\n");
-            System.out.print("3 EXIT\n");
+            System.out.print("3 Subtract two numbers\n");
+            System.out.print("4 EXIT\n");
 
             choice = scan.next().charAt(0);
             switch(choice){
@@ -30,8 +31,15 @@ public class lab1{
                             res = a*b;
                             System.out.println("RESULT = "+ res);
                             break;
+                
+                case '3' : System.out.println("CASE 2");
+                            a = scan.nextFloat();
+                            b = scan.nextFloat();
+                            res = a-b;
+                            System.out.println("RESULT = "+ res);
+                            break;
 
-                case '3' : System.exit(0);
+                case '4' : System.exit(0);
                             break;
 
                 default : System.out.println("DEFAULT");
